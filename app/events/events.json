@@ -412,8 +412,8 @@
     "registrationFee": "200/- per head",
     "cashPrize": { "type": "first-second", "first": "6,000", "second": "3,000" },
     "coordinator": {
-      "name": "Psych Fest Team",
-      "phone": ""
+      "name": "Adithyan VS",
+      "phone": "6282312058"
     },
     "image": "/images/dyota.jpg",
     "registrationLink": "https://example.com/register/dyota"
@@ -430,8 +430,8 @@
     "registrationFee": "200/- per head",
     "cashPrize": { "type": "first-second", "first": "5,000", "second": "2,500" },
     "coordinator": {
-      "name": "Psych Fest Team",
-      "phone": ""
+      "name": "Adithyan VS",
+      "phone": "6282312058"
     },
     "image": "/images/thanatos.jpg",
     "registrationLink": "https://example.com/register/thanatos"

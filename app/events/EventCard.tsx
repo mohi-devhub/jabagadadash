@@ -179,14 +179,26 @@ export default function EventCard({ event }: EventCardProps) {
               {/* Event Coordinator */}
               {event.coordinator && (
                 <div>
-                  <h3 className="text-[#efdb92] text-xl font-semibold mb-3">Event Coordinator</h3>
-                  <div className="bg-[#151515] border border-[#2a2a2a] rounded-lg p-4">
-                    <p className="text-gray-300 font-semibold mb-2">{event.coordinator.name}</p>
-                    {event.coordinator.phone && (
-                      <p className="flex items-center gap-2 text-sm text-gray-500">
-                        <span className="text-[#efdb92]">📞</span> <a href={`tel:${event.coordinator.phone}`} className="hover:text-[#efdb92] transition-colors duration-200">{event.coordinator.phone}</a>
-                      </p>
-                    )}
+                  <h3 className="text-[#efdb92] text-xl font-semibold mb-3">Event Coordinator{event.coordinator.name.includes(',') ? 's' : ''}</h3>
+                  <div className="bg-[#151515] border border-[#2a2a2a] rounded-lg p-4 space-y-3">
+                    {(() => {
+                      const names = event.coordinator.name.split(',').map(n => n.trim());
+                      const phones = event.coordinator.phone ? event.coordinator.phone.split(',').map(p => p.trim()) : [];
+                      
+                      return names.map((name, index) => (
+                        <div key={index} className={index > 0 ? 'pt-3 border-t border-[#2a2a2a]' : ''}>
+                          <p className="text-gray-300 font-semibold mb-1">{name}</p>
+                          {phones[index] && (
+                            <p className="flex items-center gap-2 text-sm text-gray-500">
+                              <span className="text-[#efdb92]">📞</span> 
+                              <a href={`tel:${phones[index]}`} className="hover:text-[#efdb92] transition-colors duration-200">
+                                {phones[index]}
+                              </a>
+                            </p>
+                          )}
+                        </div>
+                      ));
+                    })()}
                   </div>
                 </div>
               )}
