@@ -5,9 +5,9 @@
     "date": "2026-02-19",
     "location": "LP Campus",
     "category": "Management",
-    "tags": ["Management Fest", "Creative", "Reels", "Team Event"],
+    "tags": ["Day 1"],
     "description": "A reels making competition where teams of up to 2 participants showcase their creativity through short video content.",
-    "guidelines": "• Maximum 2 participants per team\n• Create and submit a creative reel\n• Follow the theme and guidelines provided during registration",
+    "guidelines": "• A valid institutional ID card is mandatory for participation\n• This is a pair event for UG and PG students\n• Participants should bring their own peripherals (No electronic devices will be provided)\n• The use of templates is not allowed\n• Reel duration must be under 60 seconds\n• Submission must follow the provided theme\n• Winners will be judged based on creativity, script and composition\n• The Judges decision will be final\n• Reels should be submitted as a document format\n• Submitted reels may be reposted on official fest social media platforms with due credit",
     "registrationFee": "200/- per team",
     "cashPrize": { "type": "single", "amount": "5,000" },
     "coordinator": {
@@ -23,9 +23,9 @@
     "date": "2026-02-19",
     "location": "LP Campus",
     "category": "Management",
-    "tags": ["Management Fest", "Pitching", "Startup", "Team Event"],
-    "description": "An idea pitching competition where teams of up to 4 participants present their innovative business ideas.",
-    "guidelines": "• Maximum 4 participants per team\n• Prepare a business pitch presentation\n• Focus on innovation, feasibility, and impact",
+    "tags": ["Day 1"],
+    "description": "Idea to Impact is a multi-round competitive game designed to test participants on creativity, collaboration, and business acumen. Teams progress from ideation to collaboration and finally to investor-level pitching, simulating the real-world startup journey.",
+    "guidelines": "• The competition consists of three rounds: Idea Spark, Collaborative Competition, and Investor's Arena\n• Round 1 (Idea Spark): Teams get 5–7 minutes to pitch the problem, solution, target customer, and uniqueness\n• Judges/audience may ask rapid-fire questions in Round 1; answers must be within 30–60 seconds\n• Round 1 is scored on Innovation, Clarity, and Problem Relevance\n• Top 10 teams from Round 1 qualify for Round 2\n• Round 2: Teams are paired into 5 groups of 2 teams and given 10–20 minutes for collaboration and pitching\n• In Round 2, teams must collaborate, merge ideas, or form a partnership and present a joint pitch\n• Round 2 is evaluated on Problem-solving Ability, Feasibility, and Confidence & Logic\n• Top 2 groups (4 teams) advance to the Final Round\n• Final Round: Teams deliver a detailed investor pitch; judges allocate virtual investments, and the team with the highest score and investment wins",
     "registrationFee": "250/- per team",
     "cashPrize": { "type": "single", "amount": "6,000" },
     "coordinator": {
@@ -38,12 +38,12 @@
   {
     "id": "3",
     "title": "Kurukshetra",
-    "date": "2026-02-20",
+    "date": "2026-02-19",
     "location": "LP Campus",
     "category": "Management",
-    "tags": ["Management Fest", "Auction", "Strategy", "Team Event"],
-    "description": "A strategic IPL Auction simulation where teams compete to build the best squad within budget constraints.",
-    "guidelines": "• Maximum 4 participants per team\n• Understand auction mechanics and player values\n• Strategic bidding required\n• Budget management is crucial",
+    "tags": ["Day 1"],
+    "description": "IPL Auction: Fantasy Edition is a high-energy strategic event that brings the thrill of the IPL auction to life. Participants will compete in teams of 4–5 members to build the ultimate fantasy squad of 15 IPL players through a live auction. Each team must carefully manage its budget, balance player categories, and make smart bidding decisions based on pre-released fantasy points assigned to each player. With only 10 teams allowed to participate, the event demands quick thinking, teamwork, and deep cricket knowledge. Teams must adhere to squad composition rules, including limits on foreign players and mandatory category selections. Any team failing to complete its squad within the allocated budget will be eliminated, raising the stakes at every bid. At the end of the auction, total fantasy points of each team's squad will be calculated, and the team with the highest cumulative score will be crowned the champion of Kurukshetra. Packed with competition, strategy, and the electric atmosphere of a real IPL auction, Kurukshetra promises an unforgettable experience for every cricket enthusiast.",
+    "guidelines": "• Teams of 4–5 members compete to build the ultimate fantasy squad of 15 IPL players\n• Only 10 teams allowed to participate\n• Teams must carefully manage budget and balance player categories\n• Smart bidding decisions based on pre-released fantasy points\n• Squad composition rules include limits on foreign players and mandatory category selections\n• Teams failing to complete squad within allocated budget will be eliminated\n• Total fantasy points of each team's squad will be calculated\n• Team with the highest cumulative score wins",
     "registrationFee": "500/- per team",
     "cashPrize": { "type": "first-second", "first": "10,000", "second": "6,000" },
     "coordinator": {
@@ -56,12 +56,12 @@
   {
     "id": "4",
     "title": "Chakravyuham",
-    "date": "2026-02-20",
+    "date": "2026-02-19",
     "location": "LP Campus",
     "category": "Management",
-    "tags": ["Management Fest", "Leadership", "Strategy", "Team Event"],
-    "description": "The ultimate test for management teams, combining leadership, strategy, and teamwork challenges.",
-    "guidelines": "• Maximum 4 participants per team\n• Multiple rounds testing management skills\n• Leadership and strategy assessment\n• Team coordination is essential",
+    "tags": ["Day 1"],
+    "description": "Chakravyuham is a high-energy management team event where teams compete through multiple rounds of branding, strategy, leadership, risk-taking, and negotiation. From silent logo challenges to crisis-solving and real-time trading, only the smartest and most coordinated teams survive till the end.",
+    "guidelines": "• Each team must have 4 members\n• A valid institutional ID card is mandatory for participation\n• The decision of the Event Head and Judges shall be final and binding\n• Participants must maintain discipline, professionalism, and ethical conduct throughout the event\n• Any form of malpractice, cheating, misrepresentation, or intentional sabotage will result in immediate disqualification\n• Physical fights, verbal abuse, intimidation, or any form of physical harm is strictly prohibited and will lead to instant disqualification\n• External assistance, audience interference, or help from non-participants is not allowed unless explicitly permitted by judges\n• Use of mobile phones, smart devices, or electronic gadgets is strictly prohibited unless specifically allowed\n• Teams must report on time for each round; late reporting may lead to elimination\n• Failure to follow instructions or violation of rules may result in time penalties, point deductions, or disqualification",
     "registrationFee": "600/- per team",
     "cashPrize": { "type": "first-second", "first": "15,000", "second": "8,000" },
     "coordinator": {
@@ -74,12 +74,12 @@
   {
     "id": "5",
     "title": "Vyapara Tantram",
-    "date": "2026-02-21",
+    "date": "2026-02-19",
     "location": "LP Campus",
     "category": "Management",
-    "tags": ["Management Fest", "Trading", "Business", "Simulation"],
-    "description": "A trading simulation competition where teams experience real-world market dynamics.",
-    "guidelines": "• Maximum 4 participants per team\n• Trading simulation platform provided\n• Market analysis and strategy required\n• Risk management essential",
+    "tags": ["Day 1"],
+    "description": "Vyapara Tantram is a multi-round stock market simulation game where teams make trading decisions based on real-time price movements and news events. Participants start with virtual money to build portfolios through intraday trading. In later rounds, teams respond to domestic economic news and global geopolitical developments by deciding whether to buy or sell affected stocks. Teams earn points for correctly identifying impacted sectors and making sound trading decisions, with eliminations after each round leading to the final winners.",
+    "guidelines": "• The registration fee for the event per team is Rs.240\n• The event is open only to undergraduate and postgraduate students\n• A valid institutional ID card is mandatory for participation\n• No use of phone / Internet is allowed\n• Each team should ensure that independent participant communication between teams is not permissible\n• The maximum number of registrations allowed is 10 teams, and the team size can be upto 3 to 4 participants per team\n• Before each round, the rules of the respective rounds will be read out, and qualified teams which fail to follow them will be subject to disqualification\n• The decision of the event heads and the judge's decision will be final",
     "registrationFee": "600/- per team",
     "cashPrize": { "type": "single", "amount": "10,000" },
     "coordinator": {
@@ -96,9 +96,9 @@
     "date": "2026-02-19",
     "location": "LP Campus",
     "category": "Tech",
-    "tags": ["Tech Fest", "Hackathon", "Coding", "Team Event"],
-    "description": "A major hackathon event where participants build innovative solutions.",
-    "guidelines": "• Form teams and build innovative projects\n• 24-hour hackathon format\n• Theme will be announced at the start\n• Judging based on innovation, execution, and impact",
+    "tags": ["Day 1"],
+    "description": "A high-intensity, 24-hour challenge where teams build innovative, working prototypes from scratch to solve real-world problem statements.",
+    "guidelines": "• Mode: Offline, continuous 24-hour coding challenge\n• Team Size: Up to 4 members; cross-branch teams allowed\n• Project Origin: Projects must be built entirely from scratch during the event; pre-written code is prohibited\n• Theme: Problem statements will be released at the commencement of the event\n• Resources: Participants must bring their own laptops, chargers, and peripheral devices\n• Evaluation: Includes two internal evaluation rounds and a final project presentation\n• Disqualification: Plagiarism, use of pre-built solutions, or failure to meet deadlines",
     "registrationFee": "200/- per head",
     "cashPrize": { "type": "prize-pool", "amount": "50,000" },
     "coordinator": {
@@ -112,12 +112,12 @@
   {
     "id": "7",
     "title": "Daksh",
-    "date": "2026-02-19",
+    "date": "2026-02-20",
     "location": "LP Campus",
     "category": "Tech",
-    "tags": ["Tech Fest", "Workshop", "Learning"],
-    "description": "Technical workshop series for skill development and learning.",
-    "guidelines": "• Multiple workshop sessions\n• Hands-on learning experience\n• Bring your laptop\n• Certificates provided",
+    "tags": ["Day 2"],
+    "description": "A series of technical, hands-on workshop sessions designed to provide participants with practical experience in emerging technologies.",
+    "guidelines": "• Format: A hands-on, interactive technical training session\n• Participation: Individual only; open to all branches and years\n• Attendance: Full session attendance is mandatory to receive a certificate\n• Discipline: Professional behavior is required; disturbances may lead to removal\n• Requirements: Participants should bring laptops or notebooks if specified\n• Evaluation: This is a learning-based event with no competitive scoring",
     "registrationFee": "200/- per head",
     "coordinator": {
       "name": "Aswathy Pradeep, Dhyan Nand",
@@ -133,9 +133,9 @@
     "date": "2026-02-20",
     "location": "LP Campus",
     "category": "Tech",
-    "tags": ["Tech Fest", "Gaming", "Esports", "Competition"],
-    "description": "A competitive gaming tournament where players battle in the eSports arena.",
-    "guidelines": "• Multiple game titles available\n• Tournament format\n• Bring your own controller if needed\n• Fair play rules strictly enforced",
+    "tags": ["Hybrid event"],
+    "description": "A competitive arena for solo and team players to showcase their skills in popular PvP games and e-sports titles.",
+    "guidelines": "• Games: Valorant, Free Fire, and PES/eFootball\n• Team Size: Exactly 5 members per team\n• Eligibility: Inter-college teams and participants aged 18+ are allowed\n• Conduct: Cheating, hacking, or abusive behavior leads to immediate disqualification\n• Devices: Participants must bring their own laptops or smartphones\n• Connectivity: Organizers will provide internet access at the venue\n• Media Rights: Organizers own all media taken during the event for promotion\n• Verification: Winners must pass identity and anti-cheat checks",
     "registrationFee": "150/- per head",
     "cashPrize": { "type": "prize-pool", "amount": "15,000" },
     "coordinator": {
@@ -152,9 +152,9 @@
     "date": "2026-02-20",
     "location": "LP Campus",
     "category": "Tech",
-    "tags": ["Tech Fest", "Coding", "Competition"],
-    "description": "A coding competition for top developers to solve complex algorithms.",
-    "guidelines": "• Individual competition\n• Solve algorithmic problems\n• Timed rounds\n• Any programming language allowed",
+    "tags": ["Day 2"],
+    "description": "A rigorous competition testing logic and security skills through algorithmic coding challenges and Capture The Flag (CTF) scenarios.",
+    "guidelines": "• Language: Strictly Python only\n• Participation: Solo (individual) event only\n• Rounds: 4 rounds including Mock, Debugging, Reverse Coding, and DSA Problem Solving\n• Forbidden Tools: Use of AI tools (ChatGPT/Copilot), mobile phones, or pre-written code is prohibited\n• Platform: All scoring is automated via HackerRank\n• Tie-Breaker: Based on the fastest cumulative completion time\n• Hardware: Participants must use provided campus computer lab systems\n• Venue: Lab A301; report 15 minutes before the Mock Round",
     "registrationFee": "150/- per head",
     "cashPrize": { "type": "first-second", "first": "8,000", "second": "4,000" },
     "coordinator": {
@@ -165,14 +165,31 @@
     "registrationLink": "https://tally.so/r/lbrzA5"
   },
   {
+    "id": "10",
+    "title": "MayaSabha",
+    "date": "2026-02-20",
+    "location": "LP Campus",
+    "category": "Tech",
+    "tags": ["Day 2"],
+    "description": "An immersive walk-in experience where participants can explore the latest in Virtual and Augmented Reality technology.",
+    "guidelines": "• Nature: Non-competitive experiential stall open to all fest attendees\n• Format: Individual participation on a first-come, first-served basis\n• Duration: Each participant has a fixed time limit for their VR experience\n• Safety: Not recommended for those prone to motion sickness\n• Equipment: Mandatory proper handling; intentional damage will incur penalties\n• Venue: Atrium\n• Coordination: Participants must follow all instructions from stall coordinators",
+    "registrationFee": "50 per use",
+    "coordinator": {
+      "name": "Shamna Khaludeen Kunju , Advaith Santhosh",
+      "phone": "9995449128 , 9495858085"
+    },
+    "image": "/mayasabha.png",
+    "registrationLink": "https://tally.so/r/walkup"
+  },
+  {
     "id": "11",
     "title": "Eka-Lakshya",
     "date": "2026-02-21",
     "location": "LP Campus",
     "category": "Tech",
-    "tags": ["Tech Fest", "Robotics", "Competition"],
-    "description": "A robotics line follower competition where teams build and race autonomous robots.",
-    "guidelines": "• Build a line-following robot\n• Robot specifications provided\n• Fastest and most accurate robot wins\n• Technical inspection required",
+    "tags": ["Day 2"],
+    "description": "A precision-based robotics event where autonomous bots must navigate a complex track with speed and accuracy.",
+    "guidelines": "• Autonomy: Robots must be fully autonomous; no manual control allowed during runs\n• Team Size: Maximum of 6 members; inter-college teams allowed\n• Rounds: 3 stages (Qualification, Intermediate, and Final) with increasing track difficulty\n• Specifications: Max 30x30x30 cm, 3 KG weight, and 24 V DC\n• Power: Power source must be onboard; no external power allowed\n• Scoring: Evaluated on completion time, accuracy, and penalties for deviations\n• Required Gear: Teams must bring their own robots, batteries, and laptops\n• Reporting: At least 30 minutes before the event starts",
     "registrationFee": "200/- per team",
     "cashPrize": { "type": "first-second", "first": "10,000", "second": "5,000" },
     "coordinator": {
@@ -188,9 +205,9 @@
     "date": "2026-02-21",
     "location": "LP Campus",
     "category": "Tech",
-    "tags": ["Tech Fest", "Poster", "Research"],
-    "description": "A poster and paper presentation event where participants showcase their research and innovative ideas.",
-    "guidelines": "• Prepare poster and paper presentation\n• Focus on technical innovation\n• Presentation time limit applies\n• Judging based on content, presentation, and Q&A",
+    "tags": ["Day 2"],
+    "description": "A platform for students to present original research, innovative ideas, and technical concepts through posters or formal papers.",
+    "guidelines": "• Team Size: Individual or teams of 2–4 members\n• Theme: Open-themed technical presentation; not limited to any specific domain\n• Selection: Round 0 is a preliminary online screening of submitted abstracts\n• Presentation: Shortlisted teams present offline using PPT followed by a Q&A\n• Originality: The paper must be original; plagiarism leads to disqualification\n• Time Management: Presentation time limits must be strictly followed\n• Judging: Based on innovation, technical depth, and presentation skills\n• Backups: Participants should keep a copy of their PPT on a mobile or USB drive",
     "registrationFee": "100/- per head",
     "cashPrize": { "type": "prize-pool", "amount": "3,500" },
     "coordinator": {
@@ -206,9 +223,9 @@
     "date": "2026-02-21",
     "location": "LP Campus",
     "category": "Tech",
-    "tags": ["Tech Fest", "Project", "Exhibition"],
-    "description": "Bring and showcase your best technical projects in this major exhibition event.",
-    "guidelines": "• Bring your working project\n• Exhibition setup provided\n• Demonstration required\n• Innovation and functionality judged",
+    "tags": ["Day 2"],
+    "description": "A showcase event for participants to demonstrate their original hardware and software projects to a wider audience and panel of experts.",
+    "guidelines": "• Scope: Exhibit original innovative projects, prototypes, or working models\n• Team Size: Individual or teams of 2–4 UG/PG students\n• Authenticity: Commercially purchased or ready-made projects are strictly prohibited\n• Format: Stalls in the Atrium; teams must stay at their stalls during evaluation\n• Judging Criteria: Innovation, technical implementation, and practical applicability\n• Resources: Organizers provide basic power; all other hardware/software must be brought by participants\n• Safety: Participants are responsible for the safety of their models and belongings",
     "registrationFee": "200/- per team",
     "cashPrize": { "type": "prize-pool", "amount": "23,000" },
     "coordinator": {
@@ -224,9 +241,9 @@
     "date": "2026-02-21",
     "location": "LP Campus",
     "category": "Tech",
-    "tags": ["Tech Fest", "Web Development", "Competition"],
-    "description": "A web development challenge where participants design and build creative websites.",
-    "guidelines": "• Design and build a website\n• Theme provided on the day\n• Time-limited challenge\n• Judging on design, functionality, and creativity",
+    "tags": ["Day 2"],
+    "description": "A live web development challenge where teams design and code responsive, creative websites within a limited timeframe.",
+    "guidelines": "• Team Size: 1–3 members; open to all branches\n• Time Limit: 1:00 PM – 4:00 PM; website must be built entirely during this window\n• Theme: A specific theme will be announced at the start of the event\n• Restrictions: No AI-generated code, pre-made templates, or drag-and-drop builders\n• Submission: Project must be uploaded to a public GitHub repository\n• Evaluation: Based on UI/UX, functionality, responsiveness, and creativity\n• Reporting: 12:50 PM at the notified venue\n• Frameworks: Use of frameworks and libraries is permitted",
     "registrationFee": "80/- per head",
     "cashPrize": { "type": "prize-pool", "amount": "5,000" },
     "coordinator": {
@@ -243,14 +260,14 @@
     "date": "2026-02-19",
     "location": "LP Campus",
     "category": "Cultural",
-    "tags": ["Cultural Fest", "Photography", "Competition"],
+    "tags": ["Day 1"],
     "description": "A photography contest themed 'The Mystery Emotion Hunt' where teams capture intriguing emotions.",
     "guidelines": "• Maximum 4 participants per team\n• Capture mystery emotions theme\n• Submit photos by deadline\n• Original work only",
     "registrationFee": "120/- per team",
     "cashPrize": { "type": "first-second", "first": "3,000", "second": "1,500" },
     "coordinator": {
-      "name": "Vividha Sadamast",
-      "phone": "9967843080"
+      "name": "Athul Menon",
+      "phone": "+91 79945 55083"
     },
     "image": "/gudha bhav.png",
     "registrationLink": "https://tally.so/r/jaPzL6"
@@ -261,7 +278,7 @@
     "date": "2026-02-19",
     "location": "LP Campus",
     "category": "Cultural",
-    "tags": ["Cultural Fest", "Photography", "Competition"],
+    "tags": ["Day 1"],
     "description": "A photography contest themed 'The Eye of God Challenge' where participants showcase unique perspectives.",
     "guidelines": "• Maximum 4 participants per team\n• Eye of God theme\n• Submit photos by deadline\n• Creative perspectives encouraged",
     "registrationFee": "120/- per team",
@@ -279,14 +296,14 @@
     "date": "2026-02-20",
     "location": "LP Campus",
     "category": "Cultural",
-    "tags": ["Cultural Fest", "Mime", "Performance", "Team Event"],
+    "tags": ["Day 2"],
     "description": "A group mime competition where teams express stories without words through creative performances.",
     "guidelines": "• Maximum 10 participants per team\n• Mime performance only (no speaking)\n• Time limit applies\n• Props and costumes allowed",
     "registrationFee": "300/- per team",
     "cashPrize": { "type": "first-second", "first": "5,000", "second": "3,000" },
     "coordinator": {
-      "name": "Ashwin Unnikrishnan",
-      "phone": "9778578349"
+      "name": "Shivangi Tiwari",
+      "phone": "+91 81020 83452"
     },
     "image": "/chitraangika.png",
     "registrationLink": "https://tally.so/r/MeRVLg"
@@ -297,14 +314,14 @@
     "date": "2026-02-21",
     "location": "LP Campus",
     "category": "Cultural",
-    "tags": ["Cultural Fest", "Fashion", "Performance"],
+    "tags": ["Day 3"],
     "description": "The grand fashion showcase event where teams walk the ramp in style.",
     "guidelines": "• Professional ramp walk\n• Theme-based outfits\n• Choreography required\n• Judging on presentation, creativity, and coordination",
     "registrationFee": "1500/- per team",
     "cashPrize": { "type": "first-second", "first": "25,000", "second": "15,000" },
     "coordinator": {
-      "name": "Ashwin Unnikrishnan",
-      "phone": "9778578349"
+      "name": "Devinandana P B , Vividha Sanatan Sadamast",
+      "phone": "+91 85920 91614 , +91 99678 43080"
     },
     "image": "/taranga.png",
     "registrationLink": "https://tally.so/r/44rOvo"
@@ -312,17 +329,17 @@
   {
     "id": "19",
     "title": "Dhruva '26",
-    "date": "2026-02-21",
+    "date": "2026-02-20",
     "location": "LP Campus",
     "category": "Cultural",
-    "tags": ["Cultural Fest", "Music", "Band", "Competition"],
-    "description": "The ultimate Western/Eastern Band Competition - Battle of the bands.",
+    "tags": ["Day 2"],
+    "description": "An electrifying platform for college bands to showcase their sound, talent, teamwork, and compete for musical glory.",
     "guidelines": "• Western or Eastern band format\n• Original or cover songs\n• Performance time limit\n• Sound equipment provided",
     "registrationFee": "1000/- per team",
     "cashPrize": { "type": "first-second", "first": "20,000", "second": "10,000" },
     "coordinator": {
-      "name": "Ashwin Unnikrishnan",
-      "phone": "9778578349"
+      "name": "Ashwin Unnikrishnan , Aravind Ajith",
+      "phone": "+91 97785 78349 , +91 90613 48133"
     },
     "image": "/dhruva.png",
     "registrationLink": "https://tally.so/r/PdOrY0"
@@ -330,17 +347,17 @@
   {
     "id": "20",
     "title": "Yugma",
-    "date": "2026-02-20",
+    "date": "2026-02-21",
     "location": "LP Campus",
     "category": "Cultural",
-    "tags": ["Cultural Fest", "Performance", "Duo"],
+    "tags": ["Day 3"],
     "description": "A duo performance competition where teams showcase their chemistry through creative performances.",
     "guidelines": "• 2-person performance\n• Any performance art form\n• Time limit applies\n• Chemistry and coordination judged",
     "registrationFee": "600/- per team",
     "cashPrize": { "type": "first-second", "first": "15,000", "second": "5,000" },
     "coordinator": {
-      "name": "Vividha Sadamast",
-      "phone": "9967843080"
+      "name": "Akshara MK",
+      "phone": "+91 79947 84209"
     },
     "image": "/yugma.png",
     "registrationLink": "https://tally.so/r/1AVRJL"
@@ -349,17 +366,17 @@
   {
     "id": "21",
     "title": "Swarabhinaya",
-    "date": "2026-02-20",
+    "date": "2026-02-19",
     "location": "LP Campus",
     "category": "Cultural",
-    "tags": ["Cultural Fest", "Dubbing", "Competition"],
+    "tags": ["Day 1"],
     "description": "A scene dubbing competition where teams voice over their favorite scenes.",
     "guidelines": "• Maximum 2 participants per team\n• Dub the provided scene\n• Voice modulation and timing important\n• Any language allowed",
     "registrationFee": "200/- per team",
     "cashPrize": { "type": "first-second", "first": "3,000", "second": "2,000" },
     "coordinator": {
-      "name": "Amrithavarshini",
-      "phone": "6282261449"
+      "name": "Aditi Dev",
+      "phone": "+91 97782 78711"
     },
     "image": "/swarabinaya.png",
     "registrationLink": "https://tally.so/r/PdOrB0"
@@ -368,17 +385,17 @@
   {
     "id": "22",
     "title": "Squid Game",
-    "date": "2026-02-20",
+    "date": "2026-02-19",
     "location": "LP Campus",
     "category": "Psychology",
-    "tags": ["Psychology Fest", "Games", "Competition"],
+    "tags": ["Day 1"],
     "description": "A survival game challenge based on the series where participants compete in thrilling challenges.",
     "guidelines": "• Multiple game rounds\n• Elimination format\n• Physical and mental challenges\n• Safety measures in place",
     "registrationFee": "200/- per head",
     "cashPrize": { "type": "first-second", "first": "8,000", "second": "5,000" },
     "coordinator": {
-      "name": "Adithyan VS",
-      "phone": "6282312058"
+      "name": "Sreelakshmi Dinesh , Anirudh S",
+      "phone": "9778445115 , 9495962961"
     },
     "image": "/squid game.png",
     "registrationLink": "https://tally.so/r/Xx0QRe"
@@ -386,17 +403,17 @@
   {
     "id": "23",
     "title": "Dyota",
-    "date": "2026-02-20",
+    "date": "2026-02-19",
     "location": "LP Campus",
     "category": "Psychology",
-    "tags": ["Psychology Fest", "Challenge"],
+    "tags": ["Day 1"],
     "description": "A psychology themed event testing your mental agility and psychological knowledge.",
     "guidelines": "• Psychology-based challenges\n• Multiple rounds\n• Individual competition\n• Mental agility tested",
     "registrationFee": "200/- per head",
     "cashPrize": { "type": "first-second", "first": "6,000", "second": "3,000" },
     "coordinator": {
-      "name": "Adithyan VS",
-      "phone": "6282312058"
+      "name": "Swathi",
+      "phone": "+91 89217 20870"
     },
     "image": "/dyota.png",
     "registrationLink": "https://tally.so/r/vGYz0X"
@@ -404,16 +421,16 @@
   {
     "id": "24",
     "title": "Thanatos",
-    "date": "2026-02-20",
+    "date": "2026-02-19",
     "location": "LP Campus",
     "category": "Psychology",
-    "tags": ["Psychology Fest", "Challenge"],
+    "tags": ["Day 1"],
     "description": "Challenge your mind in this psychology-based competition.",
     "guidelines": "• Mind-challenging tasks\n• Psychological tests\n• Individual participation\n• Mental endurance required",
     "registrationFee": "200/- per head",
     "cashPrize": { "type": "first-second", "first": "5,000", "second": "2,500" },
     "coordinator": {
-      "name": "Adithyan VS",
+      "name": "Adithyan",
       "phone": "6282312058"
     },
     "image": "/thanatos.png",
@@ -426,7 +443,7 @@
     "date": "2026-02-20",
     "location": "LP Campus",
     "category": "Literary",
-    "tags": ["Literary Fest", "Quest", "Books"],
+    "tags": ["Day 2"],
     "description": "A literary quest with book hampers as prizes.",
     "guidelines": "• Literary-themed quest\n• Book knowledge required\n• Individual or team participation\n• Multiple clues and challenges",
     "registrationFee": "50/- per person",
@@ -444,7 +461,7 @@
     "date": "2026-02-20",
     "location": "LP Campus",
     "category": "Literary",
-    "tags": ["Literary Fest", "Mathematics", "Logic"],
+    "tags": ["Day 2"],
     "description": "A mathematics and logic event testing your problem-solving skills.",
     "guidelines": "• Mathematical problems\n• Logic puzzles\n• Individual competition\n• Time-bound challenges",
     "registrationFee": "40/- per person",
@@ -462,7 +479,7 @@
     "date": "2026-02-20",
     "location": "LP Campus",
     "category": "Literary",
-    "tags": ["Literary Fest", "Quiz", "Sanskrit"],
+    "tags": ["Online event"],
     "description": "A Sanskrit knowledge quiz testing your understanding of the ancient language.",
     "guidelines": "• Sanskrit language quiz\n• Multiple rounds\n• Individual participation\n• Knowledge of Sanskrit literature and grammar",
     "registrationFee": "20/- per person",
@@ -478,17 +495,17 @@
   {
     "id": "28",
     "title": "7s Football",
-    "date": "2026-02-21",
+    "date": "2026-02-19",
     "location": "LP Campus",
     "category": "General",
-    "tags": ["Sports", "Football", "Intercollege"],
+    "tags": ["Day 1"],
     "description": "An intercollege football tournament - the ultimate football showdown.",
     "guidelines": "• 7-a-side format\n• Intercollege participation\n• Knockout tournament\n• Standard football rules apply",
     "registrationFee": "1000/- per team",
     "cashPrize": { "type": "first-second", "first": "12,500", "second": "7,000" },
     "coordinator": {
-      "name": "Shabaz Sha S.S",
-      "phone": "9745317135"
+      "name": "Anand Kiran , Anagha Suresh",
+      "phone": "7907269067 , 9961295176"
     },
     "image": "/sevens.png",
     "registrationLink": "https://tally.so/r/q4VzJ5"
@@ -498,15 +515,15 @@
     "title": "Lakshya '26",
     "date": "2026-02-21",
     "location": "LP Campus",
-    "category": "General",
-    "tags": ["Treasure Hunt", "Adventure", "Team Event"],
+    "category": "Cultural",
+    "tags": ["Day 3"],
     "description": "A campus-wide treasure hunt where teams solve clues to find the treasure.",
     "guidelines": "• Solve clues across campus\n• Team coordination essential\n• Time-bound challenge\n• First team to complete wins",
     "registrationFee": "500/- per team",
     "cashPrize": { "type": "single", "amount": "15,000" },
     "coordinator": {
-      "name": "Vighnesh",
-      "phone": "9061633956"
+      "name": "Anagha Anil",
+      "phone": "+91 85903 07578"
     },
     "image": "/lakshya.png",
     "registrationLink": "https://tally.so/r/1AVRpg"
