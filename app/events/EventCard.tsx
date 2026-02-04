@@ -5,6 +5,7 @@ import { useState, useEffect } from 'react';
 import { InteractiveHoverButton } from "@/components/ui/interactive-hover-button"
 import { MapPin } from 'lucide-react';
 import { CalendarDays } from 'lucide-react';
+import Image from 'next/image';
 
 interface EventCardProps {
   event: Event;
@@ -37,19 +38,37 @@ export default function EventCard({ event }: EventCardProps) {
         onClick={() => setIsModalOpen(true)}
         className="relative bg-[#151515] border border-[#2a2a2a] rounded-xl p-4 sm:p-5 md:p-6 hover:border-[#efdb92] hover:shadow-[0_0_20px_rgba(239,219,146,0.15)] hover:scale-105 transition-all duration-300 aspect-square flex flex-col justify-end cursor-pointer overflow-hidden group"
       >
+        {/* Tags in top right */}
+        {event.tags && event.tags.length > 0 && (
+          <div className="absolute top-4 right-4 z-[3] flex flex-wrap gap-2 justify-end max-w-[60%]">
+            {event.tags.map((tag, index) => (
+              <span 
+                key={index}
+                className="bg-[#efdb92]/90 text-black text-xs sm:text-sm font-semibold px-3 py-1 rounded-full shadow-lg"
+              >
+                {tag}
+              </span>
+            ))}
+          </div>
+        )}
+
         {/* Background logo image */}
-        <div 
-          className="absolute inset-0 z-0 opacity-20 group-hover:opacity-30 transition-opacity duration-300"
-          style={{
-            backgroundImage: 'url(/jb6_logo.png)',
-            backgroundSize: 'contain',
-            backgroundPosition: 'center',
-            backgroundRepeat: 'no-repeat'
-          }}
-        />
+        {event.image && (
+          <div className="absolute inset-0 z-0 opacity-40 group-hover:opacity-25 transition-opacity duration-300">
+            <Image
+              src={event.image}
+              alt={event.title}
+              fill
+              className="object-contain"
+              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+              quality={100}
+              priority={false}
+            />
+          </div>
+        )}
         
         {/* Background gradient overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-[#0a0a0a]/40 via-transparent to-[#0a0a0a]/95 z-[1]" />
+        <div className="absolute inset-0 bg-gradient-to-b from-[#0a0a0a]/30 via-transparent to-[#0a0a0a]/90 z-[1]" />
         
         <div className="relative z-[2] flex flex-col sm:flex-row gap-2 sm:gap-3">
           {/* Event Details */}
@@ -71,9 +90,10 @@ export default function EventCard({ event }: EventCardProps) {
           </div>
           
           {/* Register Button */}
-          <div className="flex items-end" onClick={(e) => e.stopPropagation()}>
+          {/*<div className="flex items-end" onClick={(e) => e.stopPropagation()}>
             <InteractiveHoverButton onClick={handleRegisterClick}>Register</InteractiveHoverButton>
           </div>
+          */}
         </div>
       </div>
 
@@ -93,14 +113,14 @@ export default function EventCard({ event }: EventCardProps) {
                 <h2 className="text-[#efdb92] text-xl sm:text-2xl md:text-3xl font-bold mb-2 sm:mb-3">{event.title}</h2>
                 <div className="flex flex-col sm:flex-row gap-2 sm:gap-6 text-xs sm:text-sm text-gray-500">
                   <span className="flex items-center gap-2">
-                    <span className="text-[#efdb92]">📅</span> {new Date(event.date).toLocaleDateString('en-US', { 
+                    <span className="text-[#efdb92]"><CalendarDays /></span> {new Date(event.date).toLocaleDateString('en-US', { 
                       month: 'long', 
                       day: 'numeric', 
                       year: 'numeric' 
                     })}
                   </span>
                   <span className="flex items-center gap-2">
-                    <span className="text-[#efdb92]">📍</span> {event.location}
+                    <span className="text-[#efdb92]"><MapPin /></span> {event.location}
                   </span>
                 </div>
               </div>
@@ -133,6 +153,7 @@ export default function EventCard({ event }: EventCardProps) {
               )}
 
               {/* Cash Prize */}
+              
               {event.cashPrize && (
                 <div>
                   <h3 className="text-[#efdb92] text-lg sm:text-xl font-semibold mb-2 sm:mb-3">Cash Prize</h3>
@@ -173,6 +194,7 @@ export default function EventCard({ event }: EventCardProps) {
                   {event.guidelines}
                 </p>
               </div>
+              
 
               {/* Event Coordinator */}
               {event.coordinator && (
