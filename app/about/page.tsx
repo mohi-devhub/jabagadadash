@@ -2,15 +2,27 @@
 import Wrapper from "../components/wrapper";
 import { Train, Bus } from "lucide-react";
 import CampusMap from "../components/mapView";
+import Image from "next/image";
 
 export default function AboutPage() {
   return (
     <Wrapper>
         <div className="min-h-screen bg-[#0a0a0a] px-8 py-16">
       <div className="max-w-5xl mx-auto">
-        <h1 className="text-center text-[#efdb92] text-6xl font-bold mb-20 tracking-tight animate-fade-in font-cormorant">
+        <h1 className="text-center text-[#efdb92] text-7xl font-bold mb-20 tracking-tight animate-fade-in font-cormorant">
           About
         </h1>
+
+        {/* Logo Section */}
+        <div className="flex justify-center mb-12 animate-fade-in">
+          <Image
+            src="/jb6_logo.png"
+            alt="Jabagadadash 6.0 Logo"
+            width={400}
+            height={400}
+            className="object-contain"
+          />
+        </div>
 
         {/* About Section */}
         <section className="mb-24 animate-slide-up" style={{ animationDelay: '0.1s' }}>
