@@ -38,9 +38,9 @@ export default function UpdatesComponents({title, desc}: constraints){
                 }}
             />
             <Image src={""}  alt="image"/>
-            <div className="flex flex-col px-5 py-3 text-white relative z-10">
-                <h1 className="font-bold text-xl">{title}</h1>
-                <p className="">{desc}</p>
+            <div className="flex flex-col px-5 py-3 text-white gap-1.5 relative z-10">
+                <h1 className="font-bold text-2xl text-[#efdb92] font-cormorant">{title}</h1>
+                <p className="text-[#ffffff7f] font-light">{desc}</p>
             </div>
             
         </div>
