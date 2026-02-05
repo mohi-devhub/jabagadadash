@@ -17,12 +17,19 @@ export default function AboutPage() {
         </h1>
 
         {/* Logo Section */}
-        <div className="flex justify-center mb-12 animate-fade-in">
+        <div className="flex justify-center items-center gap-8 mb-12 animate-fade-in flex-wrap">
           <Image
             src="/jb6_logo.png"
             alt="Jabagadadash 6.0 Logo"
-            width={400}
-            height={400}
+            width={250}
+            height={250}
+            className="object-contain"
+          />
+          <Image
+            src="/Logo CVV - 2 - White.png"
+            alt="CVV Logo"
+            width={230}
+            height={230}
             className="object-contain"
           />
         </div>
