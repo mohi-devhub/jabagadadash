@@ -50,7 +50,8 @@ export default function UpdatesComponents({title, desc, modalDesc, link, imagesr
                 ref={cardRef}
                 onMouseMove={handleMouseMove}
                 onClick={() => setIsModalOpen(true)}
-                className="w-full h-80 bg-black rounded-xl flex flex-col justify-end overflow-hidden border border-[rgba(255,255,255,0.16)] cursor-pointer relative group hover:scale-105 transition"
+                className="w-full h-80 bg-black rounded-xl flex flex-col 
+                justify-end overflow-hidden border border-[rgba(255,255,255,0.16)] cursor-pointer relative group hover:scale-105 transition"
             >
                 {/* Background Image */}
                 {imagesrc && (
@@ -117,7 +118,8 @@ export default function UpdatesComponents({title, desc, modalDesc, link, imagesr
                                 <div className="pt-2 sm:pt-4">
                                     <button
                                         onClick={handleRegisterClick}
-                                        className="w-full text-center bg-[#efdb92] text-black px-4 sm:px-6 py-3 sm:py-4 rounded-lg text-sm sm:text-base font-semibold hover:bg-black hover:text-white hover:shadow-[0_0_20px_rgba(239,219,146,0.3)] transition-all duration-300"
+                                        className="w-full text-center bg-[#efdb92] text-black px-4 sm:px-6 py-3 sm:py-4 rounded-lg text-sm sm:text-base 
+                                        font-semibold hover:bg-black hover:text-white hover:shadow-[0_0_20px_rgba(239,219,146,0.3)] transition-all duration-300"
                                     >
                                         Register Now →
                                     </button>

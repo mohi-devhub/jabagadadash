@@ -7,8 +7,12 @@ import LightRays from "@/components/LightRays"
 import Countdown from "@/components/countdown";
 import Wrapper from "@/components/wrapper";
 import UpdatesComponents from "@/components/updatescomponent";
+import BounceCards from "@/components/BounceCards";
 import Link from "next/link";
 import BackgroundParticles from "@/components/BackgroundParticles";
+import { useState } from 'react';
+import EventModal from "@/components/EventModal";
+import { mockEvents } from "./events/eventData";
 
 const datObj = [
     {
@@ -28,7 +32,28 @@ const datObj = [
     }
 ]
 
+const bounceImages: string[] =[
+    "/daksh.png",
+    "/taranga.png",
+    "/dyota.png",
+    "/jigisha.png",
+    "/ranam.png"
+]
+
+// Map bounce card indices to event IDs
+const bounceCardEventIds = ["7", "18", "23", "25", "9"];
+
 export default function Home() {
+  const [selectedEvent, setSelectedEvent] = useState<any>(null);
+
+  const handleBounceCardClick = (cardIndex: number) => {
+    const eventId = bounceCardEventIds[cardIndex];
+    const event = mockEvents.find(e => e.id === eventId);
+    if (event) {
+      setSelectedEvent(event);
+    }
+  };
+
   return (<>
     <BackgroundParticles />
     <Wrapper>
@@ -109,10 +134,22 @@ export default function Home() {
             </div>
           </div>
           */}
-          <div className="w-60 h-px bg-linear-to-r from-transparent via-[#efdb92] to-transparent mx-auto absolute mt-25 left-1/2 -translate-x-1/2 -translate-y-1/2"></div>
 
-          <div className="w-full h-250 bg-black flex flex-col justify-center items-center p-10 max-sm:p-4 max-sm:pb-24 max-sm:h-auto">
-            <h1 className="text-[#efdb92] text-6xl text-center py-18 font-cormorant max-sm:text-4xl max-sm:py-8">Updates</h1>
+          {/* Bounce Cards Section */}
+          <div className="w-full bg-black py-16 max-sm:py-8 flex justify-center">
+            <div className="flex flex-col items-center">
+              <h1 className="text-[#efdb92] text-5xl text-center font-cormorant max-sm:text-3xl mb-10">Event Highlights</h1>
+              <BounceCards 
+                images={bounceImages}
+                className="max-sm:scale-72 -mt-22 sm:mt-15"
+                enableHover
+                onCardClick={handleBounceCardClick}
+              />
+            </div>
+          </div>
+
+          <div className="w-full h-200 bg-black flex flex-col justify-center items-center py-10 max-sm:p-4 max-sm:pb-24 max-sm:h-auto">
+            <h1 className="text-[#efdb92] text-5xl text-center py-18 font-cormorant max-sm:text-3xl max-sm:py-8">Updates</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-7xl mx-auto w-full max-sm:gap-6">
               {datObj.map((item, index)=>
                   <UpdatesComponents key={index} title={item.title} desc={item.desc} imagesrc={item.imagesrc} modalDesc={item.modalDesc} link={item.link}/>
@@ -122,6 +159,11 @@ export default function Home() {
 
         </div>
     </Wrapper>
+    
+    {/* Event Modal */}
+    {selectedEvent && (
+      <EventModal event={selectedEvent} onClose={() => setSelectedEvent(null)} />
+    )}
     </>
     
   );
