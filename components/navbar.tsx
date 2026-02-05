@@ -31,7 +31,7 @@ export default function Navbar(currentPage: {currentPage: Number} = {currentPage
         <>
             {/* Desktop Navigation */}
             <div className="hidden md:flex w-auto h-auto bg-[rgba(255,255,255,0.04)] backdrop-blur-lg items-center 
-            justify-center fixed bottom-6 left-1/2 -translate-x-1/2 rounded-full px-10 py-3 border border-[rgba(255,255,255,0.16)] z-10">
+            justify-center fixed bottom-6 left-1/2 -translate-x-1/2 rounded-full px-10 py-3 border border-[rgba(255,255,255,0.16)] z-20">
                 <div className="flex text-[#efdb92] gap-4">
                     {navItems.map((item) => (
                         <Link 
