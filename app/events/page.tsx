@@ -15,7 +15,7 @@ export default function EventsPage() {
   
   const filteredEvents = mockEvents.filter(event => {
     const matchesCategory = selectedCategory === 'All' || event.category === selectedCategory;
-    const matchesTag = selectedTag === 'All' || event.tags.includes(selectedTag);
+    const matchesTag = selectedTag === 'All' || event.tags.some(tag => tag.includes(selectedTag));
     return matchesCategory && matchesTag;
   });
 

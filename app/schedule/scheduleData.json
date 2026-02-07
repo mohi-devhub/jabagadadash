@@ -177,6 +177,13 @@
           "cashPrize": "5,000/-"
         },
         {
+          "name": "Robowar",
+          "category": "Tech",
+          "date": "20/02/2026",
+          "registrationFee": "500/- per team",
+          "cashPrize": "25,000/-"
+        },
+        {
           "name": "Jigisha (Inkquest)",
           "category": "Literary",
           "date": "20/02/2026",
@@ -210,13 +217,6 @@
           "date": "20/02/2026",
           "registrationFee": "300/- per team",
           "cashPrize": "1st: 5,000/- | 2nd: 3,000/-"
-        },
-        {
-          "name": "Robowar",
-          "category": "Tech",
-          "date": "20/02/2026",
-          "registrationFee": "500/- per team",
-          "cashPrize": "25,000/-"
         }
       ]
     },
