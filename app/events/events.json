@@ -15,7 +15,8 @@
       "phone": "8075417622, 8590341362"
     },
     "image": "/drishti.png",
-    "registrationLink": "https://tally.so/r/eqRv1l"
+    "registrationLink": "https://tally.so/r/eqRv1l",
+    "registrationClosed": false
   },
   {
     "id": "2",
@@ -106,7 +107,8 @@
       "phone": "7306894713, 8589836303"
     },
     "image": "/nirman.png",
-    "registrationLink": "https://tally.so/r/MeRVEp"
+    "registrationLink": "https://tally.so/r/MeRVEp",
+    "registrationClosed": true
   },
 
   {
