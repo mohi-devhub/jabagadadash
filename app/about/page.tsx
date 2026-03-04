@@ -32,6 +32,7 @@ export default function AboutPage() {
             height={230}
             className="object-contain"
           />
+          
         </div>
 
         {/* About Section */}
